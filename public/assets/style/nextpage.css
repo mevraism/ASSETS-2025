@@ -1,0 +1,109 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    main .container {
+        margin-top: 75px;
+    }
+
+    header nav .navbar1{
+        margin-left: 0;
+        margin-right: 60px;
+    }
+
+    header nav .navbar2{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .rounded-pill {
+        width: 60%;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .kotak{
+        font-size: 12px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .vision-subtitle {
+        margin-left: -10px;
+    }
+
+    .explain{
+        margin-left: -30px;
+        margin-right: -30px;
+        margin-bottom: -80px;
+        margin-top: -40px;
+    }
+
+    .explain p{
+        font-size: 1.1rem;
+    }
+    .container #visi{
+        margin-top: -60px;
+    }
+    .container #footer{
+        margin-top: -150px;
+    }
+    .struktur{
+        margin-top: 1000px;
+    }
+    .gambar{
+        width: 75%;
+        margin-top: -50px;
+        margin-bottom: -140px;
+        align-items: center;
+    }
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.kotak{
+    font-size: 16px;
+}
+
+.explain{
+    text-align: justify;
+    color: #484E53;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.navbar1{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.navbar2{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+.struktur{
+    margin-top: 100px;
+}
+
