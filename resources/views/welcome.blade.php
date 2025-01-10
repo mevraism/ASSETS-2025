@@ -30,13 +30,13 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item mx-1">
-                            <a class="nav-link" aria-current="page" href="#tentang">Tentang Kami</a>
+                            <a class="nav-link" aria-current="page" href="#tentang">Tentang&nbsp;Kami</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link" href="#struktur">Struktur Organisasi</a>
+                            <a class="nav-link" href="#struktur">Struktur&nbsp;Organisasi</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link" href="#visi">Visi Misi</a>
+                            <a class="nav-link" href="#visi">Visi&nbsp;Misi</a>
                         </li>
                         <li class="nav-item mx-1">
                             <a class="nav-link" href="#lokasi">Lokasi</a>
@@ -44,16 +44,14 @@
                         <li class="nav-item mx-1">
                             <a class="nav-link" href="#galeri">Galeri</a>
                         </li>
-                        <div class="dropdown">
-                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Vote
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="/livecount">Live Count</a></li>
-                                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#myModal">Voting</a></li>
-                            </ul>
-                        </div>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="/livecount">Live&nbsp;Count</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal" href="#">
+                                Voting
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
