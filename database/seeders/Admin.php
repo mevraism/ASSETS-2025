@@ -15,7 +15,7 @@ class Admin extends Seeder
         DB::table('users')->insert([
             'name'  =>  'Admin Assets',
             'email' =>  'assets@ugm.ac.id',
-            'password'  =>  Hash::make('tH1s_i5n7-fL4g'),
+            'password'  =>  Hash::make('yes'),
             'created_at' => Carbon::now(),
         ]);
     }

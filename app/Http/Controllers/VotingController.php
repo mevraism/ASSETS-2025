@@ -30,6 +30,7 @@ class VotingController extends Controller
         foreach($k as $k){
             $c[$k->no_urut] = DB::table('voting')->where('no_urut', $k->no_urut)->count();
         }
+
         return view('login/livecount', compact('kandidat_tabel', 'c'));
         }
         else{
