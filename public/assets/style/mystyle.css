@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    main .container {
+        margin-top: 75px;
+    }
+
+    section {
+        padding-top: -5rem;
+        margin-top: -5rem;
+    }
+
+    .rounded-pill {
+        width: 60%;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    #tentang {
+        margin-bottom: 20px;
+    }
+
+    .row h1 {
+        font-size: 23px;
+    }
+
+    .row p {
+        font-size: 12px;
+    }
+
+    #tentang,
+    #struktur,
+    #galeri .row p {
+        font-size: 14px;
+    }
+
+    .kotak {
+        font-size: 12px;
+        width: 100%;
+        align-items: center;
+    }
+    .kotak-vote {
+        font-size: 12px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .vision-subtitle {
+        margin-left: -10px;
+    }
+
+    #galeri .live {
+        width: 50%;
+    }
+
+    .foto_kandidat {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+    }
+
+    .saran p {
+        font-size: 12px;
+    }
+    .gabung p{
+        font-size: 12px;
+    }
+    .galery{
+        width: 60%;
+        height: 60%;
+        text-align: center;
+    }
+    .spirit{
+        width: 85%;
+    }
+}
+
+.struktur-title {
+    border-radius: 15px;
+    border: none;
+    background: #FFEACA;
+    width: 100%;
+    padding: 10px 20px; 
+    color: #2f343a;
+    font-size: 24px;
+}
+
+#visi {
+    background-color: #FFEACA;
+    padding: 24px 48px;
+}
+
+#visi .tentang {
+    background-color: #0D0C33;
+    margin: 36px 100px;
+    padding: 24px 120px;
+    border-radius: 10px;
+}
+
+#visi h1 {
+    color: #FFEACA;
+    font-size: 42px;
+}
+
+#visi p, li{
+    color: #FFEACA;
+}
+
+#galeri .judul h1 {
+    font-weight: bolder;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    transition: color 0.3s ease-out;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #146C43;
+    transform-origin: bottom;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+    color: #146C43;
+    transform: translateY(-3px);
+}
+
+.navbar-nav .nav-item .nav-link:hover::after,
+.navbar-nav .nav-item .nav-link.active::after {
+    transform: scaleX(1);
+}
+
+.kotak {
+    font-size: 16px;
+}
+
+.kotak-vote{
+    font-size: 16px;
+}
+
+.modal-title {
+    font-size: 14px;
+}
+
+.token {
+    font-size: 13px;
+    color: #212529;
+}
+
+.InputStyle {
+    border-radius: 25px;
+    border: none;
+    background: #e9ecef;
+    width: 100%;
+    padding: 10px 20px;
+    color: #2f343a;
+}
+
+.saran {
+    border-radius: 25px;
+    border: none;
+    background: #e9ecef;
+    width: 80%;
+    padding: 10px 20px;
+    color: #2f343a;
+    font-size: 24px;
+}
+
+.gabung{
+    font-size: 24px;
+}
+
+.live {
+    border-radius: 25px;
+    border: none;
+    background: #fbebec;
+    padding: 10px 20px;
+    color: #b02a37;
+    width: 16%;
+}
+
+.count {
+    border-radius: 25px;
+    border: none;
+    background: #fbebec;
+    padding: 5px 50px;
+    color: #b02a37;
+}
+
+.button1 {
+    border-radius: 25px;
+}
+
+.vote {
+    color: white;
+    text-decoration: none;
+}
+
+.vote:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-abu {
+    background-color: #e9ecef;
+    width: 100%;
+}
+
+.btn-visi {
+    background-color: #FFEACA;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 900;
+    color: #0D0C33;
+}
+
+.assets-footer{
+    color: #9A9EA6;
+    text-align: justify;
+}
+
+.lokasi{
+    width: 100%;
+    height: 60vh;
+}
+
+/* struktur organisasi */
+.img-struktur{
+    margin-top: 20px;
+    height: 100%;
+    width: 70%;
+}
+
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to bottom,#40aa97,black);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-image: linear-gradient(to bottom,#40aa90,black);
+}
+
+.btn-galeri {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #004B4B;
+    background-color: transparent;
+    border-radius: 30px;
+    border-width: 3px;
+    border-color: #004B4B;
+    border-style: solid;
+    padding: 5px 22px;
+}
+
+.btn-galeri:hover, .btn-galeri.active {
+    font-weight: bolder;
+    color: white;
+    border-radius: 30px;
+    border-width: 3px;
+    border-color: #004B4B;
+    background: #004B4B;
+    padding: 5px 22px;
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-galeri {
+      padding: 0px 2px;
+      border-width: 2px;
+      font-size: 10px !important;
+    }
+    .btn-galeri:hover, .btn-galeri.active {
+        padding: 0px 2px;
+        border-width: 2px;
+        font-size: 10px !important;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .btn-galeri {
+        padding: 0px 10px;
+        border-width: 2px;
+        font-size: 16px !important;
+    }
+    .btn-galeri:hover, .btn-galeri.active {
+        padding: 0px 10px;
+        border-width: 2px;
+        font-size: 16px !important;
+    }
+}
+
+#galeri.new-page {
+    margin-top: 50px;
+}

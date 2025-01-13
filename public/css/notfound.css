@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/image/space-galaxy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0; 
+    overflow-x: hidden;
+}
+
+.notfound {
+    justify-content: center;
+    text-align: center;
+}
+
+.notfound .corner-top {
+    position: absolute;
+    top: 100;
+    left: 100;
+}
+
+.notfound .corner-bottom {
+    position: absolute;
+    bottom: 100;
+    right: 100;
+}
+
+p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.type-1{
+    font-size: 32px;
+    color: #FFEAC2;
+    font-weight: 500;
+    margin-top: 18px;
+}
+
+.type-2{
+    font-size: 20px;
+    color: #D9D9D9;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFEAC2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #0D0C33;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button:hover {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffeac2d6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #0D0C33;
+    font-weight: bolder;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    transition: ease-in 0.3s;
+}
+
+@media only screen and (max-width: 768px) {
+    .notfound img {
+        width: 200px;
+    }
+
+    .button {
+        font-size: 12px;
+    }
+
+    .notfound .corner-top,
+    .notfound .corner-bottom {
+        width: 100px;
+    }
+
+    .notfound .corner-top {
+        top: 125;
+        left: 25;
+    }
+
+    .notfound .corner-bottom {
+        bottom: 25;
+        right: 25;
+    }
+
+    .type-1{
+        font-size: 24px;
+    }
+
+    .type-2{
+        font-size: 16px;
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+body, html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    main .container {
+        margin-top: 75px;
+    }
+
+    section {
+        padding-top: -5rem;
+        margin-top: -5rem;
+    }
+
+    .rounded-pill {
+        width: 60%;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    #tentang {
+        margin-bottom: 20px;
+    }
+
+    .row h1 {
+        font-size: 23px;
+    }
+
+    .row p, li {
+        font-size: 12px;
+    }
+
+    #tentang,
+    #struktur,
+    #galeri .row p {
+        font-size: 14px;
+    }
+
+    .kotak {
+        font-size: 12px;
+        width: 100%;
+        align-items: center;
+    }
+    .kotak-vote {
+        font-size: 12px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .vision-subtitle {
+        margin-left: -10px;
+    }
+
+    #galeri .live {
+        width: 50%;
+    }
+
+    .foto_kandidat {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+    }
+
+    .saran p {
+        font-size: 12px;
+    }
+    .gabung p{
+        font-size: 12px;
+    }
+    .galery{
+        width: 60%;
+        height: 60%;
+        text-align: center;
+    }
+    .spirit{
+        width: 85%;
+    }
+
+    #visi {
+        background-color: #FFEACA;
+        padding: 5px 0px;
+    }
+    
+    #visi .tentang {
+        background-color: #0D0C33;
+        margin: 10px 0px;
+        padding: 10px 0px;
+        border-radius: 10px;
+    }
+
+    #visi h1 {
+        color: #FFEACA;
+        font-size: 24px;
+    }
+}
+
+.struktur-title {
+    border-radius: 15px;
+    border: none;
+    background: #ffe6ca;
+    width: 100%;
+    padding: 10px 20px; 
+    color: #0D0C33;
+    font-size: 48px;
+}
+
+#struktur {
+    background-color: #ae0101;
+    margin-bottom: 0px;
+    padding-bottom: 48px;
+    height: 135rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.orion {
+    height: auto;
+    width: 200px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+#visi {
+    background-color: #FFEACA;
+    padding: 24px 48px;
+}
+
+#visi .tentang {
+    background-color: #ae0101;
+    margin: 36px 100px;
+    padding: 24px 120px;
+    border-radius: 10px;
+}
+
+#visi h1 {
+    color: #FFEACA;
+}
+
+#visi p, li{
+    color: #FFEACA;
+}
+
+#galeri .judul h1 {
+    font-weight: bolder;
+    color: #004B4B;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    transition: color 0.3s ease-out;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #146C43;
+    transform-origin: bottom;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+    color: #146C43;
+    transform: translateY(-3px);
+}
+
+.navbar-nav .nav-item .nav-link:hover::after,
+.navbar-nav .nav-item .nav-link.active::after {
+    transform: scaleX(1);
+}
+
+.kotak {
+    font-size: 16px;
+}
+
+.kotak-vote{
+    font-size: 16px;
+}
+
+.modal-title {
+    font-size: 14px;
+}
+
+.token {
+    font-size: 13px;
+    color: #212529;
+}
+
+.InputStyle {
+    border-radius: 25px;
+    border: none;
+    background: #e9ecef;
+    width: 100%;
+    padding: 10px 20px;
+    color: #2f343a;
+}
+
+.saran {
+    border-radius: 25px;
+    border: none;
+    background: #e9ecef;
+    width: 80%;
+    padding: 10px 20px;
+    color: #2f343a;
+    font-size: 24px;
+}
+
+.gabung{
+    font-size: 24px;
+}
+
+.live {
+    border-radius: 25px;
+    border: none;
+    background: #fbebec;
+    padding: 10px 20px;
+    color: #b02a37;
+    width: 16%;
+}
+
+.count {
+    border-radius: 25px;
+    border: none;
+    background: #fbebec;
+    padding: 5px 50px;
+    color: #b02a37;
+}
+
+.button1 {
+    border-radius: 25px;
+}
+
+.vote {
+    color: white;
+    text-decoration: none;
+}
+
+.vote:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-abu {
+    background-color: #e9ecef;
+    width: 100%;
+}
+
+.btn-visi {
+    background-color: #FFEACA;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 900;
+    color: #0D0C33;
+}
+
+.assets-footer{
+    color: #9A9EA6;
+    text-align: justify;
+}
+
+/* struktur organisasi */
+.img-struktur{
+    margin-top: 20px;
+    height: 100%;
+    width: 70%;
+}
+
+#struktur .row {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0rem 3rem;
+}
+
+#struktur .card {
+    margin: 0px 75px;
+    z-index: 0;
+}
+
+.card {
+    background-color: #FFEACA;
+    border-radius: 10px;
+    border: none;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.card-body {
+    background-color: #FFEACA;
+    border-radius: 10px;
+    border: none;
+}
+
+.card-body img{
+    margin-bottom: -35px;
+}
+
+.card-footer {
+    background-color: #0D0C33;
+    color: #FFEACA ;
+    border-radius: 8px !important;
+    border: none;
+}
+
+.card-footer small {
+    font-weight: bolder;
+}
+
+.card-middle{
+    margin-bottom: 0px !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .struktur-title {
+        font-size: 30px;
+        text-shadow: 2px 2px 3px rgba(132, 131, 131, 0.9);
+    }
+
+    .orion {
+        height: auto;
+        width: 150px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+    #struktur {
+        height: 75%;
+        padding-bottom: 90px;
+    }
+
+    #struktur .card-group {
+        margin: 2px 20px;
+    }
+    
+    #struktur .card {
+        margin: 0px 10px;
+        z-index: 0;
+    }
+    .card-title {
+        font-size: 10px;
+        font-weight: bolder;
+    }
+    .card-footer {
+        font-weight: bolder;
+        font-size: 10px;
+    }
+    .card-body {
+        background-color: #FFEACA;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    #struktur .row {
+        margin-top: 5px 0px;
+    }
+    #visi .tentang{
+        margin: 90px 15px;
+        padding: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .struktur-title {
+        font-size: 20px;
+        text-shadow: 2px 2px 3px rgba(132, 131, 131, 0.9);
+    }
+
+    .orion {
+        height: auto;
+        width: 100px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+
+    #struktur .card-group {
+        margin: 0px;
+    }
+    
+    #struktur .card {
+        margin: 0px;
+        z-index: 0;
+    }
+    .card-title {
+        font-size: 5px;
+        font-weight: bolder;
+    }
+    .card-footer {
+        font-weight: bolder;
+        font-size:0.5vmax;
+        border-radius: 4px !important;
+        padding: 3px;
+    }
+
+    .card-body {
+        background-color: #FFEACA;
+        border-radius: 5px;
+        border: none;
+    }
+    #struktur .row {
+        margin-top: 10px;
+        padding: 0rem;
+    }
+    .card-body img{
+        margin-bottom: -20px;
+    }
+
+    #visi .tentang{
+        margin: 30px;
+        padding: 5px;
+    }
+    #visi{
+        padding: 24px 0px;
+    }
+    .btn-visi {
+        font-size: 14px;
+    }
+    #struktur {
+        margin-bottom: 60px;
+        margin-top: 5px;
+        height: 50%;
+    }
+  }
+
+.yellow {
+    height: 500px;
+    width: 500px;
+    background-color: #E0D81C;
+    display: inline-block;
+    border-radius: 50%;
+    filter: blur(100px);
+    position: absolute;
+    left: -300px;
+    top: 800px;
+    opacity: 0.4;
+}
+
+.red{
+  height: 500px;
+  width: 500px;
+  background-color: #C31414;
+  display: inline-block;
+  border-radius: 50%;
+  filter: blur(100px);
+  position: absolute;
+  right: -300px;
+  top: 1355px;
+  opacity: 0.4;
+}
