@@ -129,7 +129,6 @@
                 <li class="nav-item"><a href="#visi" class="nav-link px-2 text-muted">Visi Misi</a></li>
                 <li class="nav-item"><a href="#lokasi" class="nav-link px-2 text-muted">Lokasi</a></li>
                 <li class="nav-item"><a href="#galeri" class="nav-link px-2 text-muted">Galeri</a></li>
-                <li class="nav-item"><a href="#media" class="nav-link px-2 text-muted">Media Partner</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Vote</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact Us</a></li>
                 <p class="text-center text-muted ms-auto">&copy; 2023, All Rights Reserved</p>

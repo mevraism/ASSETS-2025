@@ -12,13 +12,13 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ getAssetDir('assets/image/work5.jpg') }}" alt="" srcset="" class="bd-placeholder-img" width="100%" height="100%">
+                <img src="{{ asset('assets/image/work5.jpg') }}" alt="" srcset="" class="bd-placeholder-img" width="100%" height="100%">
             </div>
             <div class="carousel-item">
-                <img src="{{ getAssetDir('assets/image/work4.jpg') }}" alt="" srcset="" class="bd-placeholder-img" width="100%" height="100%">
+                <img src="{{ asset('assets/image/work4.jpg') }}" alt="" srcset="" class="bd-placeholder-img" width="100%" height="100%">
             </div>
             <div class="carousel-item">
-                <img src="{{ getAssetDir('assets/image/work6.jpg') }}" alt="" srcset="" class="bd-placeholder-img" width="100%" height="100%">
+                <img src="{{ asset('assets/image/work6.jpg') }}" alt="" srcset="" class="bd-placeholder-img" width="100%" height="100%">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -60,10 +60,10 @@
         </section>
 
     
-        <section id="struktur">
+        <!-- <section id="struktur">
             <div class="row featurette">
                 <div class="col-md-5 mb-5 img-reveal">
-                    <img src="{{ getAssetDir('assets/image/Team spirit.png') }}"
+                    <img src="{{ asset('assets/image/Team spirit.png') }}"
                         class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                         alt="Image of about" width="auto" height="500" loading="lazy">
                 </div>
@@ -90,9 +90,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-@include('components.footer')
+        </section> -->
     </div>
+    @include('components.footer')
 </main>
 @endsection

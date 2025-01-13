@@ -36,9 +36,6 @@
                             <a class="nav-link" href="#struktur">Struktur&nbsp;Organisasi</a>
                         </li>
                         <li class="nav-item mx-1">
-                            <a class="nav-link" href="#visi">Visi&nbsp;Misi</a>
-                        </li>
-                        <li class="nav-item mx-1">
                             <a class="nav-link" href="#lokasi">Lokasi</a>
                         </li>
                         <li class="nav-item mx-1">
@@ -135,7 +132,7 @@
                 </div>
             </section>
 
-            <section id="struktur">
+            <!-- <section id="struktur">
                 <div class="row featurette mt-5 mb-5">
                     <div class="col-md-6 order-md-2 struktur-explain awalan">
                         <h6 class="fw-bold text-success">
@@ -165,7 +162,7 @@
                             alt="Image of about" width="auto" height="500" loading="lazy">
                     </div>
                 </div>
-            </section>
+            </section> -->
         </div>
 
             <div class="container">
@@ -229,6 +226,7 @@
                         <li><img src="{{ asset('gallery/2023/9.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
                         <li><img src="{{ asset('gallery/2023/13.jpeg') }}" alt="masonry" style="border-radius: 10px;"></li>
                         <li><img src="{{ asset('gallery/2023/15.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
+                        <li><img src="{{ asset('gallery/2023/15.jpg') }}" alt="masonry" style="border-radius: 10px;"></li>
                 </ul>
 
                 <div class="d-flex justify-content-center">
@@ -244,148 +242,7 @@
                 </div>
             </section>
 
-            <section id="media mt-3">
-                <div class="row featurette">
-                    <h6 class="fw-bold text-success text-center judul">
-                        &mdash;&mdash;
-                        MEDIA PARTNER
-                        &mdash;&mdash;
-                    </h6>
-                    <div class="row text-center text-lg-start img-reveal">
-                        <div class="col-lg-3 col-md-4 col-6 ">
-                            <img class="img-fluid "
-                                src="{{ asset('assets/image/work4.jpg') }}" alt="">
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-6">
-                            <img class="img-fluid "
-                                src="{{ asset('assets/image/work5.jpg') }}" alt="">
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-6">
-                            <img class="img-fluid "
-                                src="{{ asset('assets/image/work6.jpg') }}" alt="">
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-6">
-                            <img class="img-fluid "
-                                src="{{ asset('assets/image/work4.jpg') }}" alt="">
-                        </div>
-                    </div>
-                </div>
-
-                <h1 class="text-center fw-bold p-4 text-title">Apa Kata Mereka Tentang <span> <img src="{{asset('images/ASSETS.svg')}}" alt=""></span></h1>
-<div class="container-fluid ">
-    <div class="row row-cols-1 row-cols-lg-2 g-5">
-        <div class="col">
-            <div class="card mb-3 bg-green-1" >
-                <div class="row me-3  g-0">
-                  <div class="col">
-                    <div class="container-fluid m-4 overflow-hidden radius-20 object-fit-cover " style="height:250px; width:230px;">
-                        <img src="{{asset('assets/image/testimoni/rangga2.JPG')}}" class="img-fluid " alt="...">
-                    </div>
-
-                  </div>
-                  <div class="col">
-                    <div class="card-body">
-                      <p class="card-text text-justify fs-7">Saya senang dan bangga bisa menjadi bagian dari ASSETS. Karena di ASSETS saya mendapat teman-teman baru, teman-teman yang baik dan supportive. Proker yang ada di ASSETS juga seru-seru dan tentunya bermanfaat. Gokil bangett lahhh ASSETS 🤩</p>
-                      <p class="card-text text-end"><small class="">-Rangga TRPL-21</small></p>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card mb-3 bg-green-2" >
-                <div class="row g-0 me-3">
-                  <div class="col-md">
-                    <div class="container-fluid m-4 overflow-hidden radius-20 object-fit-cover " style="height:250px; width:230px;">
-                        <img src="{{asset('assets/image/testimoni/wisnu2.JPG')}}" class="img-fluid " alt="...">
-                    </div>
-                  </div>
-                  <div class="col-md">
-                    <div class="card-body">
-                      <p class="card-text text-justify fs-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex eaque sed totam sunt, quisquam, illo maxime exercitationem iusto officia sequi natus impedit tenetur quod! Cum vitae ut quae in.</p>
-                      <p class="card-text text-end"><small class="">-Wisnu TRPL-21</small></p>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card mb-3 bg-green-2" >
-                <div class="row g-0 me-3 ">
-                  <div class="col-md">
-                    <div class="container-fluid m-4 overflow-hidden radius-20 object-fit-cover " style="height:250px; width:230px;">
-                        <img src="{{asset('assets/image/testimoni/fabih2.JPG')}}" class="img-fluid " alt="...">
-                    </div>
-                  </div>
-                  <div class="col-md">
-                    <div class="card-body">
-                      <p class="card-text text-justify fs-7">"aku sih ga bisa berkata2 lagi , the best lah pokoknya untuk assets"</p>
-                      <p class="card-text text-end"><small class="">-Fabih TRPL-22</small></p>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card mb-3 bg-green-1" >
-                <div class="row g-0 me-3">
-                  <div class="col-md">
-                    <div class="container-fluid m-4 overflow-hidden radius-20 object-fit-cover " style="height:250px; width:230px;">
-                        <img src="{{asset('assets/image/testimoni/caca2.JPG')}}" class="img-fluid " alt="...">
-                    </div>
-                  </div>
-                  <div class="col-md">
-                    <div class="card-body">
-                      <p class="card-text text-justify fs-8">Berdinamika di ASSETS telah memberikan banyak insight baru. Melalui proker-prokernya, ASSETS telah menjadi jalan penghubung antara industri dengan civitas akademik, khususnya mahasiswa Teknologi Rekayasa Perangkat Lunak, juga menjadi wadah penghubung antarmahasiswa untuk menciptakan TRPL yang satu. Menjadi bagian dari ASSETS adalah salah satu kesempatan baik yang telah saya ambil.</p>
-                      <p class="card-text text-end"><small class="">-Caca TRPL-22</small></p>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-      </div>
-</div>
-
-                <div class="gabung">
-                    <p class="text-center mt-3 fw-bold judul">
-                        Mau bergabung jadi partner ASEETS? Yuk Lihat cara selengkapnya
-                    </p>
-                </div>
-
-                <div class="d-flex justify-content-center">
-                    <a href="https://drive.google.com/file/d/1c6tk8yi4jbkYqjosCExg662QPzEz-ytK/view?usp=share_link">
-                        <button type="submit" class="btn btn-success btn-lg px-4 me-md-2 rounded-pill kotak">Klik disini ya!
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-                            </svg>
-                        </button>
-                    </a>
-                </div>
-            </section>
-
-        <div class="modal-footer flex-column border-top-0 mt-5">
-            <div class="saran judul">
-                <p class="text-center fw-bold"> Ayo berikan saran & kritikmu untuk ASSETS yang lebih baik 🙌</p>
-                <div class="d-flex justify-content-center">
-                    <a href="#">
-                        <button type="submit"
-                            class="btn btn-success btn-lg px-4 me-md-2 rounded-pill kotak text-center">
-                            Klik disini ya!
-
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-                            </svg>
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-
+        
         @include('components.footer')
     </main>
 
